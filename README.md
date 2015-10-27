@@ -1,4 +1,4 @@
 # Java-project-extending-unfoldingmaps
 
-Java project to show in a map the secondary school enrollment female to male ratio, using data from data.worldbank.org.
-It extends the Unfolding library and has been developed in Eclipse.
+This project has been developed in Eclipse. The main class is called EducationEqualityRatio. It shows in a map the ratio of girls to boys enrolled at secondary level in public and private schools. It extends the Unfolding library. The country shapes are loaded from a GeoJSON file via a data reader and the data from a CSV file provided by data.worldbank.org.  
+

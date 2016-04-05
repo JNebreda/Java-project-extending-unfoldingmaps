@@ -25,7 +25,7 @@ public class CountryYearStatistic {
 				YearStatMap.put(year, stat);
 				if (stat < minStat) minStat = stat;
 				//if (stat > maxStat) maxStat = stat;
-				maxStat = 1.1f; //In this particular case, only a couple of countries has values above 1.1
+				maxStat = 1.1f; //In this particular case, only a couple of countries have values above 1.1
 								//if we go up to the maxStat, we lose contrast between the more meaningful values
 								//the ideal would be to distribute the colors in a more elaborate way
 			}

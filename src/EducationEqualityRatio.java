@@ -20,12 +20,6 @@ public class EducationEqualityRatio extends PApplet{
  * The data value is encoded to transparency via a simplistic linear mapping.
  */
 	
-	// IF YOU ARE WORKING OFFILINE, change the value of this variable to true
-	private static final boolean offline = true;
-	
-	/** This is where to find the local tiles, for working without an Internet connection */
-	public static String mbTilesString = "blankLight-1-3.mbtiles";
-	
 	UnfoldingMap map;
 	List<Marker> countryMarkers;
 	private int firstYear;
